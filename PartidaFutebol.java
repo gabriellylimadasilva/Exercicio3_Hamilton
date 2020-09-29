@@ -3,12 +3,12 @@ package hamilton_orientacao_objeto;
 
 public class PartidaFutebol {
     public int quantArbitros;
-    public int quantBolas;
+    public int quantGol;
     
-    public PartidaFutebol (int a, int b)
+    public PartidaFutebol (int a, int g)
     {
         quantArbitros = a;
-        quantBolas = b;                    
+        quantGol = g;                    
     }
     public void setQuantArbitros(int a)
     {
@@ -17,11 +17,11 @@ public class PartidaFutebol {
     public int getQuantArbitros(){
         return quantArbitros;
     }
-    public void setQuantBolas(int b)
+    public void setQuantGol(int g)
     {
-        quantBolas = b;
+        quantGol = g;
     }
-    public int getQuantBolas() {
-        return quantBolas;   
+    public int getQuantGol() {
+        return quantGol;   
     }
 }
